@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { FaApple} from 'react-icons/fa'
+import { FaApple, FaShoppingBag} from 'react-icons/fa'
+import { MdSearch } from 'react-icons/md'
 
 const NavWrapper = () => {
     return(
@@ -15,6 +16,8 @@ const NavWrapper = () => {
                 <Link to="/tv">TV</Link>
                 <Link to="/music">Music</Link>
                 <a href="https://support.apple.com/">Support</a>
+                <MdSearch color="white" size="20px"/>
+                <FaShoppingBag color="white" size="18px"/>
                 </div>
             </nav>
         </div>
